@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1DDA54A1AEFB18500389FE9 /* RSA.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DDA5491AEFB18500389FE9 /* RSA.swift */; };
+		D1DDA54C1AEFF0BA00389FE9 /* helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DDA54B1AEFF0BA00389FE9 /* helper.swift */; };
+		D1DDA54E1AEFF73E00389FE9 /* prime.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DDA54D1AEFF73E00389FE9 /* prime.swift */; };
 		D1E836A31AEC679E005171F3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E836A21AEC679E005171F3 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D1DDA5491AEFB18500389FE9 /* RSA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSA.swift; sourceTree = "<group>"; };
+		D1DDA54B1AEFF0BA00389FE9 /* helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = helper.swift; sourceTree = "<group>"; };
+		D1DDA54D1AEFF73E00389FE9 /* prime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = prime.swift; sourceTree = "<group>"; };
 		D1E8369F1AEC679E005171F3 /* SwiftRSA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftRSA; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E836A21AEC679E005171F3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				D1E836A21AEC679E005171F3 /* main.swift */,
+				D1DDA54D1AEFF73E00389FE9 /* prime.swift */,
+				D1DDA54B1AEFF0BA00389FE9 /* helper.swift */,
+				D1DDA5491AEFB18500389FE9 /* RSA.swift */,
 			);
 			path = SwiftRSA;
 			sourceTree = "<group>";
@@ -118,7 +127,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1DDA54C1AEFF0BA00389FE9 /* helper.swift in Sources */,
+				D1DDA54A1AEFB18500389FE9 /* RSA.swift in Sources */,
 				D1E836A31AEC679E005171F3 /* main.swift in Sources */,
+				D1DDA54E1AEFF73E00389FE9 /* prime.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +248,7 @@
 				D1E836A81AEC679E005171F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
